@@ -10,7 +10,7 @@ public class EstruturaDeDecisao {
     public static void main(String[] args) {
 //        stringIgual();
 //        stringComeca();
-        datas();
+//        datas();
 
     }
 
@@ -48,21 +48,23 @@ public class EstruturaDeDecisao {
     //        }
     //    }
 
-    private static void datas(){
-        try {
-            Date data = new SimpleDateFormat("dd/MM/yyyy").parse("24/09/2024");
-            Date hoje = new Date();
+//    private static void datas(){
+//        try {
+//            Date data = new SimpleDateFormat("dd/MM/yyyy").parse("24/09/2024");
+//            Date hoje = new Date();
+//
+//            if(data.before(new Date())){
+//                System.out.println("Essa data já passou");
+//            } else if(data.equals(hoje)){
+//                System.out.println("Essa data condiz com o dia de hoje");
+//            } else {
+//                System.out.println("Essa data ainda não chegou");
+//            }
+//        } catch(ParseException e) {
+//            System.err.println("Erro ao analisar a data: " + e.getMessage());
+//        }
+//    }
 
-            if(data.before(new Date())){
-                System.out.println("Essa data já passou");
-            } else if(data.equals(hoje)){
-                System.out.println("Essa data condiz com o dia de hoje");
-            } else {
-                System.out.println("Essa data ainda não chegou");
-            }
-        } catch(ParseException e) {
-            System.err.println("Erro ao analisar a data: " + e.getMessage());
-        }
 
-    }
+
 }
