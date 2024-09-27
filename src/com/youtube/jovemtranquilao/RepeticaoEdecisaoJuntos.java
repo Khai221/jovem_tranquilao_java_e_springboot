@@ -11,12 +11,17 @@ public class RepeticaoEdecisaoJuntos {
         }
 
         ArrayList<Integer> numerosPares = new ArrayList<>();
+        ArrayList<Integer> numerosImpares = new ArrayList<>();
 
         for(Integer numero : listaDeUmADez) {
             if(numero % 2 == 0) {
                 numerosPares.add(numero);
-                System.out.println(numerosPares);
-            };
+
+            } else {
+                numerosImpares.add(numero);
+
         }
     }
-}
+        System.out.println(numerosPares);
+        System.out.println(numerosImpares);
+}}
