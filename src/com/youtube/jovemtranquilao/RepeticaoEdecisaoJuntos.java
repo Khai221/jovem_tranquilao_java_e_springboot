@@ -19,7 +19,6 @@ public class RepeticaoEdecisaoJuntos {
 
             } else {
                 numerosImpares.add(numero);
-
         }
     }
         System.out.println(numerosPares);
